@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -188,8 +188,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 15.0, 105.0, 65.0, 23.0 ],
-					"text" : "line~ 1000"
+					"patching_rect" : [ 15.0, 105.0, 34.0, 23.0 ],
+					"text" : "line~"
 				}
 
 			}
