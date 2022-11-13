@@ -59,9 +59,17 @@
   --accent-base: 0, 0%;
   --accent-lightness: 31%;
 }
-[data-name='verbin'] {
+[data-name^='squelch'] {
   --accent-base: 130, 79%;
   --accent-lightness: 20%;
+}
+[data-name^='snow'] {
+  --accent-base: 241, 26%;
+  --accent-lightness: 40%;
+}
+[data-name^='diff'] {
+  --accent-base: 225, 100%;
+  --accent-lightness: 32%;
 }
 
 .module h2 {
