@@ -825,7 +825,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 240.0, 75.0, 98.0, 22.0 ],
-					"text" : "receive~ srb.R"
+					"text" : "receive~ srb.2"
 				}
 
 			}
@@ -899,7 +899,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 105.0, 75.0, 96.0, 22.0 ],
-					"text" : "receive~ srb.L"
+					"text" : "receive~ srb.1"
 				}
 
 			}

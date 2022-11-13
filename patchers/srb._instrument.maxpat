@@ -2002,7 +2002,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 345.0, 76.0, 22.0 ],
-					"text" : "send~ srb.R"
+					"text" : "send~ srb.2"
 				}
 
 			}
@@ -2016,7 +2016,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 345.0, 74.0, 22.0 ],
-					"text" : "send~ srb.L"
+					"text" : "send~ srb.1"
 				}
 
 			}
