@@ -1,0 +1,91 @@
+.param {
+  list-style: none;
+}
+
+.paramExpanded {
+  margin-bottom: 1rem;
+}
+
+.paramHeader {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 -1rem;
+  padding: 0.125rem 1rem;
+  user-select: none;
+  opacity: 0.4;
+}
+
+.paramHeader:hover,
+.paramHeader:focus-within,
+.paramExpanded .paramHeader {
+  opacity: 1;
+}
+
+.paramHeader:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.paramName {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.paramExpanded .paramName {
+  font-weight: bold;
+  font-size: 1.17em;
+}
+
+.includeToggle {
+  font-size: smaller;
+}
+
+.includeToggle > * {
+  vertical-align: middle;
+}
+
+.paramControl {
+  margin: 0.5rem 0;
+}
+
+.paramControl > * {
+  margin-right: 1rem;
+}
+
+.paramControl input[type='number'] {
+  width: 6em;
+  text-align: right;
+}
+
+.paramControl select {
+  max-width: 10rem;
+}
+
+.octaveOpt {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  width: 2rem;
+}
+
+.interpolationItem {
+  margin-bottom: 0.25rem;
+}
+
+.interpolationItem > * {
+  margin-right: 1em;
+}
+
+.interpolationItem button {
+  float: right;
+  margin: 0;
+}
+
+.boolean input {
+  vertical-align: middle;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  accent-color: var(--accent-light);
+}

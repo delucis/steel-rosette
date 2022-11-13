@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  color: #eee;
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#preact_root {
+  height: 100%;
+  isolation: isolate;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root {
+  --theme-primary-base: 262, 52%;
+  --theme-primary-lightness: 47%;
+  --theme-primary: hsl(
+    var(--theme-primary-base),
+    var(--theme-primary-lightness)
+  );
+  --theme-primary-light: hsl(
+    var(--theme-primary-base),
+    calc(var(--theme-primary-lightness) + 15%)
+  );
+  --theme-primary-dark: hsl(
+    var(--theme-primary-base),
+    calc(var(--theme-primary-lightness) - 15%)
+  );
+  --theme-color-reverse-text: white;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid hsla(0, 0%, 50%, 0.5);
+  margin: 2rem 0;
+}
+
+.cta {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 1em;
+  background-color: var(--theme-primary);
+  color: var(--theme-color-reverse-text);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-color: #673ab7;
+  color: white;
+}
+
+.align-center {
+  text-align: center;
+}

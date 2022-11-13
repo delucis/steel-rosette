@@ -1,0 +1,71 @@
+{
+  "name": "steel-rosette",
+  "author": "Chris Swithinbank",
+  "description": "Live electronics for Chris Swithinbank’s steel rosette",
+  "version": "0.0.1",
+  "mastervol": "0.",
+  "cues": {
+    "1": {
+      "verbin": [
+        "gain-1 -12 0",
+        "gain-2 0 0"
+      ],
+      "duospace": [
+        "space SaintOuen",
+        "wet 1"
+      ]
+    },
+    "14": {
+      "player-1": [
+        "play 14-navigating.wav 0"
+      ]
+    },
+    "16": {
+      "player-2": [
+        "play 16-navigating.wav 0"
+      ]
+    },
+    "25": {
+      "player-3": [
+        "play 25-navigating.wav 0"
+      ]
+    },
+    "36": {
+      "player-1": [
+        "play 36-navigating.wav 0"
+      ]
+    },
+    "47": {
+      "player-2": [
+        "play 47-navigating.wav 0"
+      ]
+    },
+    "57": {
+      "player-3": [
+        "play 57-navigating.wav 0"
+      ]
+    },
+    "65": {
+      "player-1": [
+        "play 65-navigating.wav 0"
+      ]
+    },
+    "73": {
+      "player-2": [
+        "play 73-navigating.wav 0"
+      ]
+    },
+    "88": {
+      "player-3": [
+        "play 88-navigating.wav 0"
+      ]
+    }
+  },
+  "state": {
+    "pedal-config": {
+      "trigger-value": 0,
+      "midi-port": 11,
+      "midi-device": "to Max 1"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.editor {
+  margin: 0 auto 3rem;
+  max-width: 30rem;
+}
+
+.cueNumber {
+  text-align: center;
+  font-size: larger;
+  width: 4em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.editorButton {
+  margin: 0 0.25rem;
+  min-width: 8rem;
+  padding: 0.5rem 1rem;
+}
+
+.module {
+  --bg-opacity: 1;
+  --accent-base: 248, 39%;
+  --accent-lightness: 39%;
+  --accent: var(--accent-base), var(--accent-lightness);
+  --accent-light: hsl(var(--accent-base), calc(var(--accent-lightness) + 25%));
+  background-color: hsla(var(--accent), var(--bg-opacity));
+  accent-color: white;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem 1rem;
+  box-shadow: 0 0.125rem 0rem var(--accent-light);
+}
+
+[data-name='big-ear'] {
+  --accent-base: 2, 63%;
+  --accent-lightness: 56%;
+}
+[data-name='starlight'] {
+  --accent-base: 209, 72%;
+  --accent-lightness: 31%;
+}
+[data-name*='space'] {
+  --accent-base: 225, 100%;
+  --accent-lightness: 16%;
+}
+[data-name='xover'] {
+  --accent-base: 215, 7%;
+  --accent-lightness: 35%;
+}
+[data-name='little-sister'] {
+  --accent-base: 276, 43%;
+  --accent-lightness: 34%;
+}
+[data-name^='player'] {
+  --accent-base: 0, 0%;
+  --accent-lightness: 31%;
+}
+[data-name='verbin'] {
+  --accent-base: 130, 79%;
+  --accent-lightness: 20%;
+}
+
+.module h2 {
+  text-transform: uppercase;
+}
+
+.moduleDescription {
+  margin: -0.5rem 0 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.moduleParams {
+  padding: 0;
+}
