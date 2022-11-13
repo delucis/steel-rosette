@@ -112,7 +112,7 @@ const squelchParams: Param[] = [
     name: 'spread',
     type: 'float',
     min: 0,
-    max: 1,
+    max: 100,
     default: '0',
     canInterpolate: true,
   },
