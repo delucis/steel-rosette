@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1110.0, 735.0 ],
+		"rect" : [ 0.0, 53.0, 1305.0, 735.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.65 ],
+					"id" : "obj-10",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 1305.0, 735.0 ],
+					"proportion" : 0.39,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -56,21 +71,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 570.0, 465.0, 240.0, 45.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.65 ],
-					"id" : "obj-10",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 1110.0, 735.0 ],
-					"proportion" : 0.39,
-					"rounded" : 0
 				}
 
 			}
@@ -106,8 +106,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -285,7 +285,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 870.0, 0.0, 225.0, 735.0 ],
+					"patching_rect" : [ 870.0, 0.0, 435.0, 735.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -430,16 +430,54 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-12::obj-13" : [ "density[3]", "DENSITY", 0 ],
-			"obj-12::obj-12::obj-14" : [ "live.menu[1]", "live.menu", 0 ],
 			"obj-12::obj-13::obj-10" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-12::obj-16::obj-14" : [ "live.slider", "Pan", 0 ],
-			"obj-12::obj-16::obj-16" : [ "live.slider[1]", "Pan", 0 ],
-			"obj-12::obj-16::obj-27" : [ "gain1", "Gain 1", 0 ],
-			"obj-12::obj-16::obj-4" : [ "gain1[1]", "Gain 1", 0 ],
 			"obj-12::obj-27::obj-22" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-12::obj-3::obj-10" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-12::obj-4::obj-10" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-12::obj-59::obj-12::obj-13" : [ "squelch.freq", "freq", 0 ],
+			"obj-12::obj-59::obj-12::obj-15" : [ "squelch.noise-cutoff", "noise cutoff", 0 ],
+			"obj-12::obj-59::obj-12::obj-18" : [ "squelch.gain", "gain", 0 ],
+			"obj-12::obj-59::obj-12::obj-6" : [ "squelch.spread", "spread", 0 ],
+			"obj-12::obj-59::obj-12::obj-8" : [ "squelch.colour", "colour", 0 ],
+			"obj-12::obj-59::obj-24::obj-21" : [ "snow.freq-1", "freq 1", 0 ],
+			"obj-12::obj-59::obj-24::obj-24" : [ "snow.gain[1]", "gain", 0 ],
+			"obj-12::obj-59::obj-24::obj-3" : [ "snow.freq-2", "freq 2", 0 ],
+			"obj-12::obj-59::obj-8::obj-21" : [ "snow.freq", "freq", 0 ],
+			"obj-12::obj-59::obj-8::obj-22" : [ "snow.q", "Q", 0 ],
+			"obj-12::obj-59::obj-8::obj-24" : [ "snow.gain", "gain", 0 ],
+			"obj-12::obj-60::obj-12::obj-13" : [ "squelch.freq[1]", "freq", 0 ],
+			"obj-12::obj-60::obj-12::obj-15" : [ "squelch.noise-cutoff[1]", "noise cutoff", 0 ],
+			"obj-12::obj-60::obj-12::obj-18" : [ "squelch.gain[1]", "gain", 0 ],
+			"obj-12::obj-60::obj-12::obj-6" : [ "squelch.spread[1]", "spread", 0 ],
+			"obj-12::obj-60::obj-12::obj-8" : [ "squelch.colour[1]", "colour", 0 ],
+			"obj-12::obj-60::obj-24::obj-21" : [ "snow.freq-1[1]", "freq 1", 0 ],
+			"obj-12::obj-60::obj-24::obj-24" : [ "snow.gain[3]", "gain", 0 ],
+			"obj-12::obj-60::obj-24::obj-3" : [ "snow.freq-2[1]", "freq 2", 0 ],
+			"obj-12::obj-60::obj-8::obj-21" : [ "snow.freq[1]", "freq", 0 ],
+			"obj-12::obj-60::obj-8::obj-22" : [ "snow.q[1]", "Q", 0 ],
+			"obj-12::obj-60::obj-8::obj-24" : [ "snow.gain[2]", "gain", 0 ],
+			"obj-12::obj-61::obj-12::obj-13" : [ "squelch.freq[3]", "freq", 0 ],
+			"obj-12::obj-61::obj-12::obj-15" : [ "squelch.noise-cutoff[3]", "noise cutoff", 0 ],
+			"obj-12::obj-61::obj-12::obj-18" : [ "squelch.gain[3]", "gain", 0 ],
+			"obj-12::obj-61::obj-12::obj-6" : [ "squelch.spread[3]", "spread", 0 ],
+			"obj-12::obj-61::obj-12::obj-8" : [ "squelch.colour[3]", "colour", 0 ],
+			"obj-12::obj-61::obj-24::obj-21" : [ "snow.freq-1[3]", "freq 1", 0 ],
+			"obj-12::obj-61::obj-24::obj-24" : [ "snow.gain[7]", "gain", 0 ],
+			"obj-12::obj-61::obj-24::obj-3" : [ "snow.freq-2[3]", "freq 2", 0 ],
+			"obj-12::obj-61::obj-8::obj-21" : [ "snow.freq[3]", "freq", 0 ],
+			"obj-12::obj-61::obj-8::obj-22" : [ "snow.q[3]", "Q", 0 ],
+			"obj-12::obj-61::obj-8::obj-24" : [ "snow.gain[6]", "gain", 0 ],
+			"obj-12::obj-62::obj-12::obj-13" : [ "squelch.freq[2]", "freq", 0 ],
+			"obj-12::obj-62::obj-12::obj-15" : [ "squelch.noise-cutoff[2]", "noise cutoff", 0 ],
+			"obj-12::obj-62::obj-12::obj-18" : [ "squelch.gain[2]", "gain", 0 ],
+			"obj-12::obj-62::obj-12::obj-6" : [ "squelch.spread[2]", "spread", 0 ],
+			"obj-12::obj-62::obj-12::obj-8" : [ "squelch.colour[2]", "colour", 0 ],
+			"obj-12::obj-62::obj-24::obj-21" : [ "snow.freq-1[2]", "freq 1", 0 ],
+			"obj-12::obj-62::obj-24::obj-24" : [ "snow.gain[5]", "gain", 0 ],
+			"obj-12::obj-62::obj-24::obj-3" : [ "snow.freq-2[2]", "freq 2", 0 ],
+			"obj-12::obj-62::obj-8::obj-21" : [ "snow.freq[2]", "freq", 0 ],
+			"obj-12::obj-62::obj-8::obj-22" : [ "snow.q[2]", "Q", 0 ],
+			"obj-12::obj-62::obj-8::obj-24" : [ "snow.gain[4]", "gain", 0 ],
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-5::obj-10" : [ "live.gain~[2]", "Output Volume", 0 ],
 			"obj-9::obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
@@ -451,14 +489,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-12::obj-12::obj-13" : 				{
-					"parameter_longname" : "density[3]"
-				}
-,
-				"obj-12::obj-12::obj-14" : 				{
-					"parameter_longname" : "live.menu[1]"
-				}
-,
 				"obj-12::obj-27::obj-22" : 				{
 					"parameter_longname" : "live.numbox[4]"
 				}
@@ -469,6 +499,142 @@
 ,
 				"obj-12::obj-4::obj-10" : 				{
 					"parameter_longname" : "live.gain~[5]"
+				}
+,
+				"obj-12::obj-59::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[1]"
+				}
+,
+				"obj-12::obj-60::obj-12::obj-13" : 				{
+					"parameter_longname" : "squelch.freq[1]"
+				}
+,
+				"obj-12::obj-60::obj-12::obj-15" : 				{
+					"parameter_longname" : "squelch.noise-cutoff[1]"
+				}
+,
+				"obj-12::obj-60::obj-12::obj-18" : 				{
+					"parameter_longname" : "squelch.gain[1]"
+				}
+,
+				"obj-12::obj-60::obj-12::obj-6" : 				{
+					"parameter_longname" : "squelch.spread[1]"
+				}
+,
+				"obj-12::obj-60::obj-12::obj-8" : 				{
+					"parameter_longname" : "squelch.colour[1]"
+				}
+,
+				"obj-12::obj-60::obj-24::obj-21" : 				{
+					"parameter_longname" : "snow.freq-1[1]"
+				}
+,
+				"obj-12::obj-60::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[3]"
+				}
+,
+				"obj-12::obj-60::obj-24::obj-3" : 				{
+					"parameter_longname" : "snow.freq-2[1]"
+				}
+,
+				"obj-12::obj-60::obj-8::obj-21" : 				{
+					"parameter_longname" : "snow.freq[1]"
+				}
+,
+				"obj-12::obj-60::obj-8::obj-22" : 				{
+					"parameter_longname" : "snow.q[1]"
+				}
+,
+				"obj-12::obj-60::obj-8::obj-24" : 				{
+					"parameter_longname" : "snow.gain[2]"
+				}
+,
+				"obj-12::obj-61::obj-12::obj-13" : 				{
+					"parameter_longname" : "squelch.freq[3]"
+				}
+,
+				"obj-12::obj-61::obj-12::obj-15" : 				{
+					"parameter_longname" : "squelch.noise-cutoff[3]"
+				}
+,
+				"obj-12::obj-61::obj-12::obj-18" : 				{
+					"parameter_longname" : "squelch.gain[3]"
+				}
+,
+				"obj-12::obj-61::obj-12::obj-6" : 				{
+					"parameter_longname" : "squelch.spread[3]"
+				}
+,
+				"obj-12::obj-61::obj-12::obj-8" : 				{
+					"parameter_longname" : "squelch.colour[3]"
+				}
+,
+				"obj-12::obj-61::obj-24::obj-21" : 				{
+					"parameter_longname" : "snow.freq-1[3]"
+				}
+,
+				"obj-12::obj-61::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[7]"
+				}
+,
+				"obj-12::obj-61::obj-24::obj-3" : 				{
+					"parameter_longname" : "snow.freq-2[3]"
+				}
+,
+				"obj-12::obj-61::obj-8::obj-21" : 				{
+					"parameter_longname" : "snow.freq[3]"
+				}
+,
+				"obj-12::obj-61::obj-8::obj-22" : 				{
+					"parameter_longname" : "snow.q[3]"
+				}
+,
+				"obj-12::obj-61::obj-8::obj-24" : 				{
+					"parameter_longname" : "snow.gain[6]"
+				}
+,
+				"obj-12::obj-62::obj-12::obj-13" : 				{
+					"parameter_longname" : "squelch.freq[2]"
+				}
+,
+				"obj-12::obj-62::obj-12::obj-15" : 				{
+					"parameter_longname" : "squelch.noise-cutoff[2]"
+				}
+,
+				"obj-12::obj-62::obj-12::obj-18" : 				{
+					"parameter_longname" : "squelch.gain[2]"
+				}
+,
+				"obj-12::obj-62::obj-12::obj-6" : 				{
+					"parameter_longname" : "squelch.spread[2]"
+				}
+,
+				"obj-12::obj-62::obj-12::obj-8" : 				{
+					"parameter_longname" : "squelch.colour[2]"
+				}
+,
+				"obj-12::obj-62::obj-24::obj-21" : 				{
+					"parameter_longname" : "snow.freq-1[2]"
+				}
+,
+				"obj-12::obj-62::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[5]"
+				}
+,
+				"obj-12::obj-62::obj-24::obj-3" : 				{
+					"parameter_longname" : "snow.freq-2[2]"
+				}
+,
+				"obj-12::obj-62::obj-8::obj-21" : 				{
+					"parameter_longname" : "snow.freq[2]"
+				}
+,
+				"obj-12::obj-62::obj-8::obj-22" : 				{
+					"parameter_longname" : "snow.q[2]"
+				}
+,
+				"obj-12::obj-62::obj-8::obj-24" : 				{
+					"parameter_longname" : "snow.gain[4]"
 				}
 ,
 				"obj-5::obj-10" : 				{
@@ -505,19 +671,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "multiconvolve~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "n4m.monitor.maxpat",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pan2S.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -612,6 +767,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "srb.diff~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "srb.dummy.js",
 				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/misc/cue-editor",
 				"patcherrelativepath" : "../misc/cue-editor",
@@ -619,7 +781,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "srb.duospace.maxpat",
+				"name" : "srb.knisterer~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -668,14 +830,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "srb.verb-poly~.maxpat",
+				"name" : "srb.snare-module.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "srb.verbin.maxpat",
+				"name" : "srb.snow~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "srb.squelch~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

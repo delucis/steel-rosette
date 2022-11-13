@@ -40,33 +40,105 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Bold",
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"args" : [ 4 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-61",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "srb.snare-module.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 90.0, 23.0, 21.0 ],
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 435.0, 315.0, 195.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 27.0, 38.0, 21.0 ],
-					"text" : "Uli",
-					"textcolor" : [ 0.333333333333333, 0.556862745098039, 0.368627450980392, 1.0 ],
-					"textjustification" : 1
+					"presentation_rect" : [ 225.0, 300.0, 195.0, 285.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Bold",
-					"id" : "obj-34",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"args" : [ 3 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "srb.snare-module.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 75.0, 40.0, 21.0 ],
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 435.0, 15.0, 195.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.0, 27.0, 40.0, 21.0 ],
-					"text" : "Yaron",
-					"textcolor" : [ 0.333333333333333, 0.556862745098039, 0.368627450980392, 1.0 ],
-					"textjustification" : 1
+					"presentation_rect" : [ 15.0, 300.0, 195.0, 285.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-60",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "srb.snare-module.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 225.0, 15.0, 195.0, 285.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 225.0, 15.0, 195.0, 285.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-59",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "srb.snare-module.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 15.0, 15.0, 195.0, 285.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 15.0, 195.0, 285.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.5, 630.0, 172.0, 23.0 ],
+					"text" : "_srb.namespace-param snow-1"
 				}
 
 			}
@@ -85,7 +157,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 405.0, 300.0, 90.0, 45.0 ],
+					"patching_rect" : [ 330.0, 585.0, 90.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 600.0, 90.0, 45.0 ],
 					"viewvisibility" : 1
@@ -99,31 +171,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.5, 165.0, 168.0, 23.0 ],
-					"text" : "_srb.namespace-param verbin"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-16",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "srb.verbin.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 3,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 15.0, 15.0, 195.0, 103.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 195.0, 105.0 ],
-					"viewvisibility" : 1
+					"patching_rect" : [ 11.5, 660.0, 184.0, 23.0 ],
+					"text" : "_srb.namespace-param squelch-1"
 				}
 
 			}
@@ -172,9 +221,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 15.0, 360.0, 195.0, 45.0 ],
+					"patching_rect" : [ 15.0, 540.0, 195.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 360.0, 195.0, 45.0 ],
+					"presentation_rect" : [ 225.0, 735.0, 195.0, 45.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -195,9 +244,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 15.0, 300.0, 195.0, 45.0 ],
+					"patching_rect" : [ 15.0, 480.0, 195.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 300.0, 195.0, 45.0 ],
+					"presentation_rect" : [ 225.0, 660.0, 195.0, 45.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -218,9 +267,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 15.0, 240.0, 195.0, 45.0 ],
+					"patching_rect" : [ 15.0, 420.0, 195.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 240.0, 195.0, 45.0 ],
+					"presentation_rect" : [ 225.0, 600.0, 195.0, 45.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -248,6 +297,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -649,8 +700,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -874,7 +923,7 @@
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"border" : 0,
 									"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
-									"cols" : 2,
+									"cols" : 1,
 									"colwidth" : 140,
 									"fontface" : 0,
 									"fontname" : "Ableton Sans Medium",
@@ -893,7 +942,7 @@
 									"readonly" : 1,
 									"rowhead" : 1,
 									"rowheight" : 22,
-									"rows" : 6,
+									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"bgcolor" : 										{
 											"expression" : "themecolor.theme_clearcolor"
@@ -1505,7 +1554,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 240.0, 15.0, 73.0, 23.0 ],
+					"patching_rect" : [ 338.5, 315.0, 73.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1611,13 +1660,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-16", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -1634,6 +1676,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -1663,13 +1712,53 @@
  ],
 		"parameters" : 		{
 			"obj-13::obj-10" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-16::obj-14" : [ "live.slider", "Pan", 0 ],
-			"obj-16::obj-16" : [ "live.slider[1]", "Pan", 0 ],
-			"obj-16::obj-27" : [ "gain1", "Gain 1", 0 ],
-			"obj-16::obj-4" : [ "gain1[1]", "Gain 1", 0 ],
 			"obj-27::obj-22" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-3::obj-10" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-4::obj-10" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-59::obj-12::obj-13" : [ "squelch.freq", "freq", 0 ],
+			"obj-59::obj-12::obj-15" : [ "squelch.noise-cutoff", "noise cutoff", 0 ],
+			"obj-59::obj-12::obj-18" : [ "squelch.gain", "gain", 0 ],
+			"obj-59::obj-12::obj-6" : [ "squelch.spread", "spread", 0 ],
+			"obj-59::obj-12::obj-8" : [ "squelch.colour", "colour", 0 ],
+			"obj-59::obj-24::obj-21" : [ "snow.freq-1", "freq 1", 0 ],
+			"obj-59::obj-24::obj-24" : [ "snow.gain[1]", "gain", 0 ],
+			"obj-59::obj-24::obj-3" : [ "snow.freq-2", "freq 2", 0 ],
+			"obj-59::obj-8::obj-21" : [ "snow.freq", "freq", 0 ],
+			"obj-59::obj-8::obj-22" : [ "snow.q", "Q", 0 ],
+			"obj-59::obj-8::obj-24" : [ "snow.gain", "gain", 0 ],
+			"obj-60::obj-12::obj-13" : [ "squelch.freq[1]", "freq", 0 ],
+			"obj-60::obj-12::obj-15" : [ "squelch.noise-cutoff[1]", "noise cutoff", 0 ],
+			"obj-60::obj-12::obj-18" : [ "squelch.gain[1]", "gain", 0 ],
+			"obj-60::obj-12::obj-6" : [ "squelch.spread[1]", "spread", 0 ],
+			"obj-60::obj-12::obj-8" : [ "squelch.colour[1]", "colour", 0 ],
+			"obj-60::obj-24::obj-21" : [ "snow.freq-1[1]", "freq 1", 0 ],
+			"obj-60::obj-24::obj-24" : [ "snow.gain[3]", "gain", 0 ],
+			"obj-60::obj-24::obj-3" : [ "snow.freq-2[1]", "freq 2", 0 ],
+			"obj-60::obj-8::obj-21" : [ "snow.freq[1]", "freq", 0 ],
+			"obj-60::obj-8::obj-22" : [ "snow.q[1]", "Q", 0 ],
+			"obj-60::obj-8::obj-24" : [ "snow.gain[2]", "gain", 0 ],
+			"obj-61::obj-12::obj-13" : [ "squelch.freq[3]", "freq", 0 ],
+			"obj-61::obj-12::obj-15" : [ "squelch.noise-cutoff[3]", "noise cutoff", 0 ],
+			"obj-61::obj-12::obj-18" : [ "squelch.gain[3]", "gain", 0 ],
+			"obj-61::obj-12::obj-6" : [ "squelch.spread[3]", "spread", 0 ],
+			"obj-61::obj-12::obj-8" : [ "squelch.colour[3]", "colour", 0 ],
+			"obj-61::obj-24::obj-21" : [ "snow.freq-1[3]", "freq 1", 0 ],
+			"obj-61::obj-24::obj-24" : [ "snow.gain[7]", "gain", 0 ],
+			"obj-61::obj-24::obj-3" : [ "snow.freq-2[3]", "freq 2", 0 ],
+			"obj-61::obj-8::obj-21" : [ "snow.freq[3]", "freq", 0 ],
+			"obj-61::obj-8::obj-22" : [ "snow.q[3]", "Q", 0 ],
+			"obj-61::obj-8::obj-24" : [ "snow.gain[6]", "gain", 0 ],
+			"obj-62::obj-12::obj-13" : [ "squelch.freq[2]", "freq", 0 ],
+			"obj-62::obj-12::obj-15" : [ "squelch.noise-cutoff[2]", "noise cutoff", 0 ],
+			"obj-62::obj-12::obj-18" : [ "squelch.gain[2]", "gain", 0 ],
+			"obj-62::obj-12::obj-6" : [ "squelch.spread[2]", "spread", 0 ],
+			"obj-62::obj-12::obj-8" : [ "squelch.colour[2]", "colour", 0 ],
+			"obj-62::obj-24::obj-21" : [ "snow.freq-1[2]", "freq 1", 0 ],
+			"obj-62::obj-24::obj-24" : [ "snow.gain[5]", "gain", 0 ],
+			"obj-62::obj-24::obj-3" : [ "snow.freq-2[2]", "freq 2", 0 ],
+			"obj-62::obj-8::obj-21" : [ "snow.freq[2]", "freq", 0 ],
+			"obj-62::obj-8::obj-22" : [ "snow.q[2]", "Q", 0 ],
+			"obj-62::obj-8::obj-24" : [ "snow.gain[4]", "gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1685,6 +1774,142 @@
 ,
 				"obj-4::obj-10" : 				{
 					"parameter_longname" : "live.gain~[3]"
+				}
+,
+				"obj-59::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[1]"
+				}
+,
+				"obj-60::obj-12::obj-13" : 				{
+					"parameter_longname" : "squelch.freq[1]"
+				}
+,
+				"obj-60::obj-12::obj-15" : 				{
+					"parameter_longname" : "squelch.noise-cutoff[1]"
+				}
+,
+				"obj-60::obj-12::obj-18" : 				{
+					"parameter_longname" : "squelch.gain[1]"
+				}
+,
+				"obj-60::obj-12::obj-6" : 				{
+					"parameter_longname" : "squelch.spread[1]"
+				}
+,
+				"obj-60::obj-12::obj-8" : 				{
+					"parameter_longname" : "squelch.colour[1]"
+				}
+,
+				"obj-60::obj-24::obj-21" : 				{
+					"parameter_longname" : "snow.freq-1[1]"
+				}
+,
+				"obj-60::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[3]"
+				}
+,
+				"obj-60::obj-24::obj-3" : 				{
+					"parameter_longname" : "snow.freq-2[1]"
+				}
+,
+				"obj-60::obj-8::obj-21" : 				{
+					"parameter_longname" : "snow.freq[1]"
+				}
+,
+				"obj-60::obj-8::obj-22" : 				{
+					"parameter_longname" : "snow.q[1]"
+				}
+,
+				"obj-60::obj-8::obj-24" : 				{
+					"parameter_longname" : "snow.gain[2]"
+				}
+,
+				"obj-61::obj-12::obj-13" : 				{
+					"parameter_longname" : "squelch.freq[3]"
+				}
+,
+				"obj-61::obj-12::obj-15" : 				{
+					"parameter_longname" : "squelch.noise-cutoff[3]"
+				}
+,
+				"obj-61::obj-12::obj-18" : 				{
+					"parameter_longname" : "squelch.gain[3]"
+				}
+,
+				"obj-61::obj-12::obj-6" : 				{
+					"parameter_longname" : "squelch.spread[3]"
+				}
+,
+				"obj-61::obj-12::obj-8" : 				{
+					"parameter_longname" : "squelch.colour[3]"
+				}
+,
+				"obj-61::obj-24::obj-21" : 				{
+					"parameter_longname" : "snow.freq-1[3]"
+				}
+,
+				"obj-61::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[7]"
+				}
+,
+				"obj-61::obj-24::obj-3" : 				{
+					"parameter_longname" : "snow.freq-2[3]"
+				}
+,
+				"obj-61::obj-8::obj-21" : 				{
+					"parameter_longname" : "snow.freq[3]"
+				}
+,
+				"obj-61::obj-8::obj-22" : 				{
+					"parameter_longname" : "snow.q[3]"
+				}
+,
+				"obj-61::obj-8::obj-24" : 				{
+					"parameter_longname" : "snow.gain[6]"
+				}
+,
+				"obj-62::obj-12::obj-13" : 				{
+					"parameter_longname" : "squelch.freq[2]"
+				}
+,
+				"obj-62::obj-12::obj-15" : 				{
+					"parameter_longname" : "squelch.noise-cutoff[2]"
+				}
+,
+				"obj-62::obj-12::obj-18" : 				{
+					"parameter_longname" : "squelch.gain[2]"
+				}
+,
+				"obj-62::obj-12::obj-6" : 				{
+					"parameter_longname" : "squelch.spread[2]"
+				}
+,
+				"obj-62::obj-12::obj-8" : 				{
+					"parameter_longname" : "squelch.colour[2]"
+				}
+,
+				"obj-62::obj-24::obj-21" : 				{
+					"parameter_longname" : "snow.freq-1[2]"
+				}
+,
+				"obj-62::obj-24::obj-24" : 				{
+					"parameter_longname" : "snow.gain[5]"
+				}
+,
+				"obj-62::obj-24::obj-3" : 				{
+					"parameter_longname" : "snow.freq-2[2]"
+				}
+,
+				"obj-62::obj-8::obj-21" : 				{
+					"parameter_longname" : "snow.freq[2]"
+				}
+,
+				"obj-62::obj-8::obj-22" : 				{
+					"parameter_longname" : "snow.q[2]"
+				}
+,
+				"obj-62::obj-8::obj-24" : 				{
+					"parameter_longname" : "snow.gain[4]"
 				}
 
 			}
@@ -1715,13 +1940,6 @@
 , 			{
 				"name" : "n4m.monitor.maxpat",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pan2S.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1774,10 +1992,24 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "srb.diff~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "srb.dummy.js",
 				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/misc/cue-editor",
 				"patcherrelativepath" : "../misc/cue-editor",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "srb.knisterer~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -1788,7 +2020,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "srb.verbin.maxpat",
+				"name" : "srb.snare-module.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "srb.snow~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "srb.squelch~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/steel-rosette/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
