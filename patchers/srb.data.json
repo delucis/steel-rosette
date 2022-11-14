@@ -395,61 +395,53 @@
     },
     "32": {
       "snow-1": [
-        "freq 10000 0",
-        "q 2 0",
-        "gain -38 3"
+        "gain -70 3"
       ],
       "squelch-1": [
-        "cutoff 2 0",
-        "freq 13 0",
+        "cutoff 0.5 0",
+        "freq 12 0",
         "colour 8300 0",
-        "spread 5 0",
-        "gain -14 0"
+        "spread 83 0",
+        "gain -43 0"
       ],
       "diff-1": [
         "gain -70 2"
       ],
       "snow-2": [
-        "freq 260 0",
-        "q 2 0",
-        "gain -43 3"
+        "gain -70 3"
       ],
       "squelch-2": [
-        "cutoff 3 0",
-        "freq 15 0",
+        "cutoff 0.25 0",
+        "freq 14 0",
         "colour 7400 0",
-        "spread 5 0",
-        "gain -14 0"
+        "spread 83 0",
+        "gain -43 0"
       ],
       "diff-2": [
         "gain -70 2"
       ],
       "snow-3": [
-        "freq 9000 0",
-        "q 2 0",
-        "gain -42 3"
+        "gain -70 3"
       ],
       "squelch-3": [
-        "cutoff 1 0",
-        "freq 16 0",
+        "cutoff 0.33 0",
+        "freq 15 0",
         "colour 8000 0",
-        "spread 5 0",
-        "gain -14 0"
+        "spread 83 0",
+        "gain -43 0"
       ],
       "diff-3": [
         "gain -70 2"
       ],
       "snow-4": [
-        "freq 570 0",
-        "q 2 0",
-        "gain -42 3"
+        "gain -70 3"
       ],
       "squelch-4": [
-        "cutoff 1.2 0",
-        "freq 19 0",
+        "cutoff 0.6 0",
+        "freq 18 0",
         "colour 7000 0",
-        "spread 5 0",
-        "gain -14 0"
+        "spread 83 0",
+        "gain -43 0"
       ],
       "diff-4": [
         "gain -70 2"
