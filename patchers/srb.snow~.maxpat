@@ -103,7 +103,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.207843137254902, 0.203921568627451, 0.27843137254902, 1.0 ],
 					"id" : "obj-37",
-					"interval" : 2000,
+					"interval" : 250,
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
