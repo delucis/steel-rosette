@@ -86,7 +86,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 60.0, 420.0, 30.0, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 106.0, 30.0, 5.0 ],
+					"presentation_rect" : [ 8.0, 106.0, 60.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : ""
